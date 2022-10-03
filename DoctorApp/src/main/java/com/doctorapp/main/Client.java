@@ -18,7 +18,7 @@ public class Client {
 		System.out.println("Press 1 from Manager / Press 2 for Patients");
 		int role = sc.nextInt();
 		sc.nextLine();
-		if(role ==1)
+		if(role ==1 )
 		{
 			System.out.println("1.Add New Doctor\n2.Update Doctor Fees\n3.Delete Doctor records\n4.Get Doctors list by ID");
 			int option = sc.nextInt();
